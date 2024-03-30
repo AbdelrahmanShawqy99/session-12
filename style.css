@@ -1,0 +1,31 @@
+section {
+  text-align: center;
+}
+.twoShadow {
+  width: 100%;
+  background-color: #9aff9a;
+}
+
+/* we make two shadows by adding , and add another values */
+.maintitle {
+  font-size: 2rem;
+  text-shadow: 10px 10px 5px red, -10px -10px 5px #059862;
+}
+
+/* difference between italic and oblique 
+italic: Use for a dedicated font design with slanted characters
+oblique :Use to slant the current font without changing  design
+
+
+ */
+
+/* text-wrap
+ default value is wrap that makes text wrapping depending on his width 
+ no wrap makes text overflow his width
+ balance make text having equal spacing between wrapped lines 
+ */
+.wrap {
+  background-color: #223240;
+  line-height: 2.5;
+  text-wrap: balance;
+}
